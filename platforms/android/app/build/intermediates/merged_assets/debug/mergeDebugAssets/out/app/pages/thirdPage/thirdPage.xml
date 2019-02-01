@@ -1,0 +1,20 @@
+<Page loaded = "onPageLoaded">
+<StackLayout>
+    <Label text ="Third"/>
+</StackLayout>
+<TabView id="tabViewContainer">
+    <TabViewItem title="A legend" iconSource="res://icon">
+        <StackLayout>
+            <Label text="This page shows the legendary Eleneor" textWrap="true" class="m-15 h2 text-left" color="blue" />
+            <Image src= "~/images/Eleanor.jpg"/>
+        </StackLayout>
+    </TabViewItem>
+    <TabViewItem title="The future" iconSource="res://icon">
+        <StackLayout>
+            <Label text="This Page shows A Tesla" textWrap="true" class="m-15 h2 text-left" color="blue" />
+            <Image src= "~/images/Tesla.jpg"/>
+        </StackLayout>
+ 
+    </TabViewItem>
+</TabView>
+</Page>

@@ -1,0 +1,30 @@
+{
+	"nativePlatformStatus": "3",
+	"appFilesHashes": {
+		"C:\\Users\\colli\\MADAssignmentTwo\\app\\app.css": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+		"C:\\Users\\colli\\MADAssignmentTwo\\app\\pages\\secondPage\\secondPage.css": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+		"C:\\Users\\colli\\MADAssignmentTwo\\app\\pages\\thirdPage\\thirdPage.css": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+		"C:\\Users\\colli\\MADAssignmentTwo\\app\\app.ts": "2de6e7ee186c82edd9b1a8553db26b39c19403a2",
+		"C:\\Users\\colli\\MADAssignmentTwo\\app\\app.js": "93b7d5cbd8da863cd8e3d19d121b5de4e7052575",
+		"C:\\Users\\colli\\MADAssignmentTwo\\app\\app.xml": "02c4982aa00e6cd04e34a0285c2501adaac9f39e",
+		"C:\\Users\\colli\\MADAssignmentTwo\\app\\images\\Tesla.jpg": "41069ae2e7914c997efdaaf4ef6f2f4aef7d0ea2",
+		"C:\\Users\\colli\\MADAssignmentTwo\\app\\images\\Eleanor.jpg": "793d51798c2be3c6ed472d82abccd67a6349ef44",
+		"C:\\Users\\colli\\MADAssignmentTwo\\app\\package.json": "361b56a90962b5dba60b918ef60ab1b9db564781",
+		"C:\\Users\\colli\\MADAssignmentTwo\\app\\pages\\secondPage\\secondPage.ts": "6fb1ca18ec89ab631413844c076c03db08f2aa0c",
+		"C:\\Users\\colli\\MADAssignmentTwo\\app\\pages\\secondPage\\secondPage.js": "ab0d96a3b1b27481ce0e2248b7784b8a8cfed515",
+		"C:\\Users\\colli\\MADAssignmentTwo\\app\\pages\\secondPage\\secondPage.xml": "7407a09884eb9ca280732394467c25bf81cb7352",
+		"C:\\Users\\colli\\MADAssignmentTwo\\app\\pages\\start\\startPage.css": "fd567396b4ca4a6d567b82fc9f8e3b91b1634dc4",
+		"C:\\Users\\colli\\MADAssignmentTwo\\app\\pages\\start\\startPage.ts": "2d8a472b336d37c3ac52f988a9d08a58ff9ccb1f",
+		"C:\\Users\\colli\\MADAssignmentTwo\\app\\pages\\start\\startPage.js": "d540345ba9a92e2da2ed7eaf9bd598666e21ba6a",
+		"C:\\Users\\colli\\MADAssignmentTwo\\app\\pages\\start\\startPage.xml": "dfb2415207a3ff2678c2a7f9140a75b970c1614c",
+		"C:\\Users\\colli\\MADAssignmentTwo\\app\\pages\\thirdPage\\thirdPage.ts": "a05d0e02f6b8e84dd3e7baed3d711e7ab52f755d",
+		"C:\\Users\\colli\\MADAssignmentTwo\\app\\pages\\thirdPage\\thirdPage.js": "34768c47023bb096e61dba3dc855b508fc17ccca",
+		"C:\\Users\\colli\\MADAssignmentTwo\\app\\pages\\thirdPage\\thirdPage.xml": "d8bdd903f7a9fa1f4a9c1e37fe2521bda13cf13e"
+	},
+	"release": false,
+	"bundle": false,
+	"changesRequireBuild": false,
+	"time": "Thu Jan 31 2019 23:43:35 GMT-0600 (Central Standard Time)",
+	"changesRequireBuildTime": "Wed Jan 30 2019 22:08:22 GMT-0600 (Central Standard Time)",
+	"projectFileHash": "117258985c7ad871b43df72902586e88ed64b9fee38da5fe7384c1f628036201"
+}
