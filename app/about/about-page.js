@@ -1,0 +1,36 @@
+"use strict";
+/*
+In NativeScript, a file with the same name as an XML file is known as
+a code-behind file. The code-behind is a great place to place your view
+logic, and to set up your page’s data binding.
+*/
+Object.defineProperty(exports, "__esModule", { value: true });
+var about_view_model_1 = require("./about-view-model");
+var frame_1 = require("tns-core-modules/ui/frame");
+// Event handler for Page "pageLoaded" event attached in home-page.xml
+function pageLoaded(args) {
+    /*
+      This gets a reference this page’s <Page> UI component. You can
+      view the API reference of the Page to see what’s available at
+      https://docs.nativescript.org/api-reference/classes/_ui_page_.page.html
+      */
+    var page = args.object;
+    page.bindingContext = new about_view_model_1.HomeViewModel();
+}
+exports.pageLoaded = pageLoaded;
+function onTapHome() {
+    var frame = frame_1.getFrameById("my-frame");
+    frame.navigate("home/home-page");
+}
+exports.onTapHome = onTapHome;
+function onTapSettings() {
+    var frame = frame_1.getFrameById("my-frame");
+    frame.navigate("settings/settings-page");
+}
+exports.onTapSettings = onTapSettings;
+function onTapAbout() {
+    var frame = frame_1.getFrameById("my-frame");
+    frame.navigate("about/about-page");
+}
+exports.onTapAbout = onTapAbout;
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiYWJvdXQtcGFnZS5qcyIsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbImFib3V0LXBhZ2UudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IjtBQUFBOzs7O0VBSUU7O0FBSUYsdURBQW1EO0FBQ25ELG1EQUF5RDtBQUV6RCxzRUFBc0U7QUFDdEUsU0FBZ0IsVUFBVSxDQUFDLElBQWU7SUFDeEM7Ozs7UUFJSTtJQUNKLElBQUksSUFBSSxHQUFTLElBQUksQ0FBQyxNQUFNLENBQUM7SUFDN0IsSUFBSSxDQUFDLGNBQWMsR0FBRyxJQUFJLGdDQUFhLEVBQUUsQ0FBQztBQUM1QyxDQUFDO0FBUkQsZ0NBUUM7QUFDRCxTQUFnQixTQUFTO0lBQ3ZCLElBQU0sS0FBSyxHQUFHLG9CQUFZLENBQUMsVUFBVSxDQUFDLENBQUM7SUFDdkMsS0FBSyxDQUFDLFFBQVEsQ0FBQyxnQkFBZ0IsQ0FBQyxDQUFDO0FBQ25DLENBQUM7QUFIRCw4QkFHQztBQUVELFNBQWdCLGFBQWE7SUFDM0IsSUFBTSxLQUFLLEdBQUcsb0JBQVksQ0FBQyxVQUFVLENBQUMsQ0FBQztJQUN2QyxLQUFLLENBQUMsUUFBUSxDQUFDLHdCQUF3QixDQUFDLENBQUM7QUFDM0MsQ0FBQztBQUhELHNDQUdDO0FBRUQsU0FBZ0IsVUFBVTtJQUN4QixJQUFNLEtBQUssR0FBRyxvQkFBWSxDQUFDLFVBQVUsQ0FBQyxDQUFDO0lBQ3ZDLEtBQUssQ0FBQyxRQUFRLENBQUMsa0JBQWtCLENBQUMsQ0FBQztBQUNyQyxDQUFDO0FBSEQsZ0NBR0MiLCJzb3VyY2VzQ29udGVudCI6WyIvKlxyXG5JbiBOYXRpdmVTY3JpcHQsIGEgZmlsZSB3aXRoIHRoZSBzYW1lIG5hbWUgYXMgYW4gWE1MIGZpbGUgaXMga25vd24gYXNcclxuYSBjb2RlLWJlaGluZCBmaWxlLiBUaGUgY29kZS1iZWhpbmQgaXMgYSBncmVhdCBwbGFjZSB0byBwbGFjZSB5b3VyIHZpZXdcclxubG9naWMsIGFuZCB0byBzZXQgdXAgeW91ciBwYWdl4oCZcyBkYXRhIGJpbmRpbmcuXHJcbiovXHJcblxyXG5pbXBvcnQgeyBFdmVudERhdGEgfSBmcm9tIFwidG5zLWNvcmUtbW9kdWxlcy9kYXRhL29ic2VydmFibGVcIjtcclxuaW1wb3J0IHsgUGFnZSB9IGZyb20gXCJ0bnMtY29yZS1tb2R1bGVzL3VpL3BhZ2VcIjtcclxuaW1wb3J0IHsgSG9tZVZpZXdNb2RlbCB9IGZyb20gXCIuL2Fib3V0LXZpZXctbW9kZWxcIjtcclxuaW1wb3J0IHsgZ2V0RnJhbWVCeUlkIH0gZnJvbSBcInRucy1jb3JlLW1vZHVsZXMvdWkvZnJhbWVcIjtcclxuXHJcbi8vIEV2ZW50IGhhbmRsZXIgZm9yIFBhZ2UgXCJwYWdlTG9hZGVkXCIgZXZlbnQgYXR0YWNoZWQgaW4gaG9tZS1wYWdlLnhtbFxyXG5leHBvcnQgZnVuY3Rpb24gcGFnZUxvYWRlZChhcmdzOiBFdmVudERhdGEpIHtcclxuICAvKlxyXG4gICAgVGhpcyBnZXRzIGEgcmVmZXJlbmNlIHRoaXMgcGFnZeKAmXMgPFBhZ2U+IFVJIGNvbXBvbmVudC4gWW91IGNhblxyXG4gICAgdmlldyB0aGUgQVBJIHJlZmVyZW5jZSBvZiB0aGUgUGFnZSB0byBzZWUgd2hhdOKAmXMgYXZhaWxhYmxlIGF0XHJcbiAgICBodHRwczovL2RvY3MubmF0aXZlc2NyaXB0Lm9yZy9hcGktcmVmZXJlbmNlL2NsYXNzZXMvX3VpX3BhZ2VfLnBhZ2UuaHRtbFxyXG4gICAgKi9cclxuICBsZXQgcGFnZSA9IDxQYWdlPmFyZ3Mub2JqZWN0O1xyXG4gIHBhZ2UuYmluZGluZ0NvbnRleHQgPSBuZXcgSG9tZVZpZXdNb2RlbCgpO1xyXG59XHJcbmV4cG9ydCBmdW5jdGlvbiBvblRhcEhvbWUoKSB7XHJcbiAgY29uc3QgZnJhbWUgPSBnZXRGcmFtZUJ5SWQoXCJteS1mcmFtZVwiKTtcclxuICBmcmFtZS5uYXZpZ2F0ZShcImhvbWUvaG9tZS1wYWdlXCIpO1xyXG59XHJcblxyXG5leHBvcnQgZnVuY3Rpb24gb25UYXBTZXR0aW5ncygpIHtcclxuICBjb25zdCBmcmFtZSA9IGdldEZyYW1lQnlJZChcIm15LWZyYW1lXCIpO1xyXG4gIGZyYW1lLm5hdmlnYXRlKFwic2V0dGluZ3Mvc2V0dGluZ3MtcGFnZVwiKTtcclxufVxyXG5cclxuZXhwb3J0IGZ1bmN0aW9uIG9uVGFwQWJvdXQoKSB7XHJcbiAgY29uc3QgZnJhbWUgPSBnZXRGcmFtZUJ5SWQoXCJteS1mcmFtZVwiKTtcclxuICBmcmFtZS5uYXZpZ2F0ZShcImFib3V0L2Fib3V0LXBhZ2VcIik7XHJcbn1cclxuIl19

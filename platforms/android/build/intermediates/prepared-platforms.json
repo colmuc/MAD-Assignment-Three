@@ -1,4 +1,5 @@
 {
+    "bootstrap": true,
     "nativescript-theme-core": true,
     "nativescript-ui-sidedrawer": true,
     "tns-core-modules": true,

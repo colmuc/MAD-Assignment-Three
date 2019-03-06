@@ -1,7 +1,10 @@
+C:\Users\colli\MADAssignmentTwo\platforms\android\app\src\main\assets\app\about\about-page.js
+C:\Users\colli\MADAssignmentTwo\platforms\android\app\src\main\assets\app\about\about-view-model.js
 C:\Users\colli\MADAssignmentTwo\platforms\android\app\src\main\assets\app\app.js
-C:\Users\colli\MADAssignmentTwo\platforms\android\app\src\main\assets\app\pages\secondPage\secondPage.js
-C:\Users\colli\MADAssignmentTwo\platforms\android\app\src\main\assets\app\pages\start\startPage.js
-C:\Users\colli\MADAssignmentTwo\platforms\android\app\src\main\assets\app\pages\thirdPage\thirdPage.js
+C:\Users\colli\MADAssignmentTwo\platforms\android\app\src\main\assets\app\home\home-page.js
+C:\Users\colli\MADAssignmentTwo\platforms\android\app\src\main\assets\app\home\home-view-model.js
+C:\Users\colli\MADAssignmentTwo\platforms\android\app\src\main\assets\app\settings\settings-page.js
+C:\Users\colli\MADAssignmentTwo\platforms\android\app\src\main\assets\app\settings\settings-view-model.js
 C:\Users\colli\MADAssignmentTwo\platforms\android\app\src\main\assets\app\tns_modules\nativescript-ui-sidedrawer\hooks\before-livesync\nativescript-angular-sync.js
 C:\Users\colli\MADAssignmentTwo\platforms\android\app\src\main\assets\app\tns_modules\nativescript-ui-sidedrawer\ui-sidedrawer.common.js
 C:\Users\colli\MADAssignmentTwo\platforms\android\app\src\main\assets\app\tns_modules\nativescript-ui-sidedrawer\ui-sidedrawer.js
